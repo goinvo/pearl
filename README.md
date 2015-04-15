@@ -5,11 +5,11 @@ Open Source Health Monitoring, Status, Advice, and Forecasting Service
 Your life in your Pocket.
 Get healthier.
 
-Open source (GPL2 or Apache)
-iOS (first) and Android (second)
-TrueVault handles PHI, stores in cloud
-HIPAA compliant
-99.9 uptime in year 1
+* Open source (GPL2 or Apache)
+* iOS (first) and Android (second)
+* TrueVault handles PHI, stores in cloud
+* HIPAA compliant
+* 99.9 uptime in year 1
 
 Customers:
 * Enterprise model for clinics, hospitals, companies, insurers
