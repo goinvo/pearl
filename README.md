@@ -12,7 +12,7 @@ Get healthier.
 * HIPAA compliant
 * 99.9 uptime in year 1
 
-#### Customers:
+#### Customers
 * Enterprise model for clinics, hospitals, companies, insurers
 * Personal download/use from iTunes, Google Play
 
