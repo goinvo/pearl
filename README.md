@@ -3,7 +3,7 @@
 ### Open Source Health Monitoring, Status, Advice, and Forecasting Service
 
 
-Your life in your Pocket.
+Your life in your Pocket. 
 Get healthier.
 
 * Open source (GPL2 or Apache)
