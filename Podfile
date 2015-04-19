@@ -1,6 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
+use_frameworks!
+
 workspace 'Pearl'
 
-pod 'AFNetworking', '~> 1.0'
-pod 'JSQMessagesViewController'
+pod "AFNetworking", "~> 2.0"
