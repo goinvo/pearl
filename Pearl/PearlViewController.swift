@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  Pearl
 //
 //  Created by Rob Sterner on 4/19/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class PearlViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
