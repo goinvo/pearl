@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>EC40B683-2797-4866-8269-33FD4679AA0A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Pearl</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>FECF7B42842743613E4EE1F555AE124F02A55F2D</key>
 		<string>github.com:goinvo/pearl.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Pearl.xcodeproj/project.xcworkspace</string>
+	<string>Pearl.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>FECF7B42842743613E4EE1F555AE124F02A55F2D</key>

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PearlViewController: UIViewController {
+class PearlViewController: JSQMessagesViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

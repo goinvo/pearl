@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43EF52F3E532299621764C1E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B481D12FD06D92A93337DB /* libPods.a */; };
+		9F6A791E1AE4492D00AC19F3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A791D1AE4492D00AC19F3 /* Podfile */; };
+		9F6A79201AE44A3700AC19F3 /* libPods-JSQMessagesViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6A791F1AE44A3700AC19F3 /* libPods-JSQMessagesViewController.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		9F6A79221AE44A3C00AC19F3 /* libPods-AFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6A79211AE44A3C00AC19F3 /* libPods-AFNetworking.a */; };
+		9F6A79241AE44A4000AC19F3 /* libPods-JSQSystemSoundPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6A79231AE44A4000AC19F3 /* libPods-JSQSystemSoundPlayer.a */; };
 		9F9053EF1AE441FC002B3BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9053EE1AE441FC002B3BAF /* AppDelegate.swift */; };
 		9F9053F11AE441FC002B3BAF /* PearlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9053F01AE441FC002B3BAF /* PearlViewController.swift */; };
 		9F9053F31AE441FC002B3BAF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9053F21AE441FC002B3BAF /* SettingsViewController.swift */; };
@@ -27,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		533798E7EF64F9115BC651DC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9F6A791D1AE4492D00AC19F3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		9F6A791F1AE44A3700AC19F3 /* libPods-JSQMessagesViewController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-JSQMessagesViewController.a"; path = "Pods/../build/Debug-iphoneos/libPods-JSQMessagesViewController.a"; sourceTree = "<group>"; };
+		9F6A79211AE44A3C00AC19F3 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AFNetworking.a"; path = "Pods/../build/Debug-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
+		9F6A79231AE44A4000AC19F3 /* libPods-JSQSystemSoundPlayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-JSQSystemSoundPlayer.a"; path = "Pods/../build/Debug-iphoneos/libPods-JSQSystemSoundPlayer.a"; sourceTree = "<group>"; };
+		9F6A79251AE44AFF00AC19F3 /* Pearl-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pearl-Bridging-Header.h"; sourceTree = "<group>"; };
 		9F9053E91AE441FC002B3BAF /* Pearl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pearl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9053ED1AE441FC002B3BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F9053EE1AE441FC002B3BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +49,8 @@
 		9F9054001AE441FC002B3BAF /* PearlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PearlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9054051AE441FC002B3BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F9054061AE441FC002B3BAF /* PearlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlTests.swift; sourceTree = "<group>"; };
+		C5B481D12FD06D92A93337DB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D333727F8CC8E62176081C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6A79241AE44A4000AC19F3 /* libPods-JSQSystemSoundPlayer.a in Frameworks */,
+				9F6A79221AE44A3C00AC19F3 /* libPods-AFNetworking.a in Frameworks */,
+				9F6A79201AE44A3700AC19F3 /* libPods-JSQMessagesViewController.a in Frameworks */,
+				43EF52F3E532299621764C1E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +75,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5857AE9A4525BF7551BF2077 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F6A79231AE44A4000AC19F3 /* libPods-JSQSystemSoundPlayer.a */,
+				9F6A79211AE44A3C00AC19F3 /* libPods-AFNetworking.a */,
+				9F6A791F1AE44A3700AC19F3 /* libPods-JSQMessagesViewController.a */,
+				C5B481D12FD06D92A93337DB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		916718B70F031292ECF195E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1D333727F8CC8E62176081C /* Pods.debug.xcconfig */,
+				533798E7EF64F9115BC651DC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9F9053E01AE441FC002B3BAF = {
 			isa = PBXGroup;
 			children = (
+				9F6A79251AE44AFF00AC19F3 /* Pearl-Bridging-Header.h */,
+				9F6A791D1AE4492D00AC19F3 /* Podfile */,
 				9F9053EB1AE441FC002B3BAF /* Pearl */,
 				9F9054031AE441FC002B3BAF /* PearlTests */,
 				9F9053EA1AE441FC002B3BAF /* Products */,
+				916718B70F031292ECF195E7 /* Pods */,
+				5857AE9A4525BF7551BF2077 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F90540A1AE441FC002B3BAF /* Build configuration list for PBXNativeTarget "Pearl" */;
 			buildPhases = (
+				D159DBA28ACB459B7AF5D08B /* Check Pods Manifest.lock */,
 				9F9053E51AE441FC002B3BAF /* Sources */,
 				9F9053E61AE441FC002B3BAF /* Frameworks */,
 				9F9053E71AE441FC002B3BAF /* Resources */,
+				BD527C5E8BC667523E2A26D3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,6 +240,7 @@
 			files = (
 				9F9053F61AE441FC002B3BAF /* Main.storyboard in Resources */,
 				9F9053FB1AE441FC002B3BAF /* LaunchScreen.xib in Resources */,
+				9F6A791E1AE4492D00AC19F3 /* Podfile in Resources */,
 				9F9053F81AE441FC002B3BAF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +253,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD527C5E8BC667523E2A26D3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D159DBA28ACB459B7AF5D08B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9F9053E51AE441FC002B3BAF /* Sources */ = {
@@ -342,21 +419,33 @@
 		};
 		9F90540B1AE441FC002B3BAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1D333727F8CC8E62176081C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Pearl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Pearl-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		9F90540C1AE441FC002B3BAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 533798E7EF64F9115BC651DC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Pearl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Pearl-Bridging-Header.h";
 			};
 			name = Release;
 		};
