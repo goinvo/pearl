@@ -25,6 +25,7 @@ Get healthier.
 #### Milestones
 * v0.01: iOS prototype, HealthKit, Onboarding/demographics (name/age/gender), Module #1 Move (3 responses with 10 variations) [30.Apr]
 * System Design/Architecture [May]
+* Terms of Use, User Rights [1.May]
 * v0.02: TrueVault Integration, Module #2 Eat (Breakfast) [14.May]
 * v0.03: ResearchKit Integration, Module #3 Sleep [28.May]
 * v0.04: Intervention Engine, Module #4 Eat (Dinner) [11.Jun]
