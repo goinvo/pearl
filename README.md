@@ -6,7 +6,7 @@
 Your life in your Pocket. 
 Get healthier.
 
-* Open source (GPL2 or Apache)
+* Open source (Apache 2)
 * iOS (first) and Android (second)
 * TrueVault handles PHI, stores in cloud
 * HIPAA compliant
